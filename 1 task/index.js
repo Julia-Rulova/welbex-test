@@ -15,25 +15,29 @@ function timeFormat(sec) {
 }
 
 button.addEventListener('click', () => {
-  const val = input.value;
-  const timeArr = val.split(':');
-  const hours = timeArr[0];
-  const minutes = timeArr[1];
-  const seconds = timeArr[2];
+  if (input.value) {
+    const val = input.value;
+    const timeArr = val.split(':');
+    const hours = timeArr[0];
+    const minutes = timeArr[1];
+    const seconds = timeArr[2];
 
-  let totalSeconds = (hours * 60 * 60) + (minutes * 60) + Number(seconds);
+    let totalSeconds = (hours * 60 * 60) + (minutes * 60) + Number(seconds);
 
-  const time = setInterval(() => {
-    if (totalSeconds < 1) {
-      clearInterval(time);
-      timer.textContent = '00:00:00';
-      button.disabled = false;
-    } else {
-      timer.textContent = timeFormat(totalSeconds);
-      button.disabled = true;
-      totalSeconds -= 1;
-    }
-  }, 1000);
+    const time = setInterval(() => {
+      if (totalSeconds < 1) {
+        clearInterval(time);
+        timer.textContent = '00:00:00';
+        button.disabled = false;
+      } else {
+        timer.textContent = timeFormat(totalSeconds);
+        button.disabled = true;
+        totalSeconds -= 1;
+      }
+    }, 1000);
 
-  input.value = '';
+    input.value = '';
+  } else {
+    alert('Введите время')
+  }
 });
