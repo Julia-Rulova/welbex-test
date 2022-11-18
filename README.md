@@ -9,7 +9,7 @@
 Например 01:12:59 - один час, 12 минут, 59 секунд.
 
 ---
-* [Ссылка на сайт](https://welbex-test-wine.vercel.app/)
+* [Ссылка на сайт](https://welbex-test-seven.vercel.app/)
 ---
 
 ## Задание 2
