@@ -2,6 +2,8 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+    z-index: 2;
+    position: relative;
 }
 
 .main__welbex-container {
