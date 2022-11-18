@@ -8,7 +8,9 @@
 
 Например 01:12:59 - один час, 12 минут, 59 секунд.
 
+---
 * [Ссылка на сайт](https://welbex-test-wine.vercel.app/)
+---
 
 ## Задание 2
 
@@ -16,11 +18,11 @@
 
 https://www.figma.com/file/ja6QtJ9gv2JuxSDIAClL1O/Welbex?node-id=0%3A1
 
+---
 * [Ссылка на сайт](https://welbex-test-mo3c.vercel.app/)
-
 ---
 
 Выполнила Рылова Юлия Алексеевна
-+79037559189
-julia.rulova0066@gmail.com
-@julik_r
+* +79037559189
+* julia.rulova0066@gmail.com
+* @julik_r
